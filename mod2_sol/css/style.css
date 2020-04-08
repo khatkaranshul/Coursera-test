@@ -1,0 +1,50 @@
+* { 
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+    font-family: garamond;
+}
+
+header > h1 {
+	text-align: center;
+	font-size: 175%;
+} 
+.container {
+	width: 100%;
+	float: center;
+}
+section {
+	width: 31.33%;
+	float: left;
+	border:  1px solid black;
+	background-color: steelblue;
+	margin: 1%;
+}
+ 
+section h1 {
+	width: fit-content;
+	float: right;
+ 	font-size: 125%;
+ 	padding: 5px;
+ 	border: 1px solid black;
+ }
+ section p {
+ 	padding: 10px;
+ 	clear: right;
+ }
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+	.sec-two {
+		width: 48%;
+		margin: 1%;
+	}
+    #sec-three {
+    	width: 98%;
+    	margin: 1%;
+    }
+ }
+ @media only screen and (max-width: 767px) { 
+	.sec-two {
+		width: 96%;
+		margin: 2%;
+    }
+ 
